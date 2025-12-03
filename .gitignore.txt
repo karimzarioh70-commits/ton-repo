@@ -1,5 +1,5 @@
 # Fichier à ignorer
-SECRETS.txt
+secrets.txt
 
 # Ignorer tous les fichiers d'un type spécifique
 *.txt
