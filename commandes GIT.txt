@@ -1,0 +1,59 @@
+Dans le terminal git bash, va dans le dossier où tu veux créer ton dépôt :
+
+1 -Initialise Git dans ce dossier avec la commande :
+
+-  git init
+Cela crée un nouveau dépôt Git et ajoute le dossier caché .git mentionné précédemment.
+
+Après avoir initialisé Git, il est utile de voir ce que Git détecte dans ton projet.
+
+Utilise la commande :
+
+-git status
+
+
+2 - Ajouter un fichier à la zone de préparation (Staging Area)
+
+Pour placer un fichier dans la zone de préparation (staging area) on utilise la commande :
+
+-  git add nom_du_fichier_complet
+
+
+Cette commande indique à Git que ce fichier doit être pris en compte pour le prochain commit.
+
+Si tu veux ajouter tous les fichiers modifiés en une seule commande, utilise :
+
+-  git add .
+
+
+
+3 - Créer un commit : un engagement et une sauvegarde officielle
+
+Une fois les fichiers ajoutés dans la zone de préparation, tu peux t'engager à les sauvegarder avec la commande git commit :
+
+-  git commit -m "Message décrivant les modifications"
+
+
+4 - Chaque commit possède un identifiant unique (ID)
+
+Chaque commit possède également un identifiant unique (ID), généré automatiquement par Git. Cet ID permet d’identifier précisément une version du projet et d’y revenir si nécessaire.
+
+Après avoir enregistré des commits, il est possible d’afficher l’historique des modifications avec :
+
+-   git log
+
+Options utiles de git log :
+
+    git log --oneline → Affiche un résumé compact des commits.
+
+    git log -p → Affiche les détails des changements pour chaque commit.
+
+Cette dernière option est particulièrement utile pour voir les différences exactes entre les versions d’un fichier.
+
+
+
+
+
+
+
+
