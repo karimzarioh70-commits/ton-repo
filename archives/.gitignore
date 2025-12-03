@@ -1,0 +1,11 @@
+# Fichier à ignorer
+secrets.txt
+
+# Ignorer tous les fichiers d'un type spécifique
+*.txt
+*.env
+
+#Ignorer un dossier entier
+
+dossier_temporaire/
+node_modules/
